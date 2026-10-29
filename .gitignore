@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env*
+server/.env
+client/.env
+
+# Build output
+/client/dist
+/client/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Coverage
+coverage/
+*.lcov
+
+# Uploads
+/server/uploads/*
+!/server/uploads/.gitkeep
+
+# Temp files
+tmp/
+temp/
+*.tmp
